@@ -20,7 +20,9 @@
     "node": ">=14.0"
   },
   "dependencies": {
-    "cdktf": "^0.15.5",
+    "@cdktf/provider-hashicups": "^6.0.0",
+    "cdktf": "^0.18.0",
+    "cjs": "^0.0.11",
     "constructs": "^10.1.265"
   },
   "devDependencies": {
