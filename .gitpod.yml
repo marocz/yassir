@@ -3,6 +3,8 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
   - name: Setup terraform, cdktf, and pnpm dependencies
@@ -15,3 +17,9 @@ tasks:
         # Install CDK for Terraform
         npm install --global cdktf-cli@latest
     init: pnpm install
+  - init: "docker-compose -f ./docker_compose/docker-compose.yaml up"
+    command: echo "HashiCups is up and running!"
+
+ports:
+  - port: 19090
+    onOpen: open-preview
