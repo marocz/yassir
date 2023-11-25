@@ -1,0 +1,66 @@
+
+⠋  Starting
+[2K[1A[2K[1A[2K[G
+⠋  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠙  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠹  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠸  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠼  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠴  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠦  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠧  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠇  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠏  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠋  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠙  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠹  Synthesizing
+[91m[2023-11-25T14:28:51.422] [ERROR] default - [39m/Users/marocz/Documents/Contribution/platform-challenge/node_modules/.pnpm/ts-node@10.9.1_@types+node@18.18.12_typescript@4.9.5/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+
+[91m[2023-11-25T14:28:51.424] [ERROR] default - [39mTSError: ⨯ Unable to compile TypeScript:
+main.ts(9,28): error TS2306: File '/Users/marocz/Documents/Contribution/platform-challenge/packages/iac/shared/interfaces/ingredient.interface.ts' is not a module.
+
+    at createTSError (/Users/marocz/Documents/Contribution/platform-challenge/node_modules/.pnpm/ts-node@10.9.1_@types+node@18.18.12_typescript@4.9.5/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/marocz/Documents/Contribution/platform-challenge/node_modules/.pnpm/ts-node@10.9.1_@types+node@18.18.12_typescript@4.9.5/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/marocz/Documents/Contribution/platform-challenge/node_modules/.pnpm/ts-node@10.9.1_@types+node@18.18.12_typescript@4.9.5/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/marocz/Documents/Contribution/platform-challenge/node_modules/.pnpm/ts-node@10.9.1_@types+node@18.18.12_typescript@4.9.5/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/marocz/Documents/Contribution/platform-challenge/node_modules/.pnpm/ts-node@10.9.1_@types+node@18.18.12_typescript@4.9.5/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/marocz/Documents/Contribution/platform-challenge/node_modules/.pnpm/ts-node@10.9.1_@types+node@18.18.12_typescript@4.9.5/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  diagnosticCodes: [ 2306 ]
+}
+
+[2K[1A[2K[1A[2K[G
+⠸  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠼  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠴  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠦  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠧  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠇  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠏  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠋  Synthesizing
+[2K[1A[2K[1A[2K[G
+⠋  Synthesizing

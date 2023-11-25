@@ -5,8 +5,9 @@ import { Testing } from 'cdktf';
 import "cdktf/lib/testing/adapters/jest"; // Load types for expect matchers
 import { Construct } from 'constructs';
 import { promises as fs } from 'fs';
-import * as path from 'path';
-import { MyCoffeeStand, OrderManager } from '../main';
+import { resolve } from 'path';
+import { MyCoffeeStand } from "../services/MyCoffeeStand";
+import { OrderManager } from "../services/OrderManager";
 
 
 
@@ -70,17 +71,17 @@ describe("My CDKTF Application", () => {
       { quantity: 3, coffee: { id: 2 } }
     ];
     await orderManager.createOrderFolder(orderId, mockOrderItems);
-    const orderPath = path.join(__dirname,'..', 'orders', orderId);
+    const orderPath = resolve( __dirname,'..', 'orders', orderId);
     console.log('Order path:', orderPath); 
 
   let exists2;
   try {
-    await fs.stat(orderPath);
+    await fs.access(orderPath);
     exists2 = true;
   } catch (error) {
     exists2 = false;
   }
- //   const exists = await fs.stat(orderPath).then(() => true).catch(() => false);
+    //const exists = await fs.readdir(orderPath).then(() => true).catch(() => false);
     expect(exists2).toBe(true);
   });
   test('should read order items correctly', async () => {
