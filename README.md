@@ -1,6 +1,6 @@
 # Yassir Platform Engineering Take Home Challenge
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/YAtechnologies/platform-challenge)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/marocz/yassir)
 
 **Note**: Do not **fork** this repository. Instead:
 - Clone it locally.
