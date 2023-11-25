@@ -30,6 +30,16 @@ Utilize the `MyCoffeeStand` and `OrderManager` classes for managing coffee order
 - Extend functionality by modifying the `MyCoffeeStand` and `OrderManager` classes.
 - Manage infrastructure changes using Terraform configurations in `packages/iac`.
 
+## Challenges Encountered
+During the development of this project, several challenges were faced:
+
+1. **Architecture Compatibility**: The Mac used for development had a specific arm64 architecture, which was not compatible with the Terraform provider.
+2. **Provider Accessibility**: Difficulty was encountered in pulling the Terraform provider, even when attempting to use an Ubuntu virtual machine.
+3. **Data Source Limitations**: Both Coffee and Ingredient entities were implemented as Data Sources in Terraform, which complicated the creation of specific, unique coffee objects.
+4. **Attribute Access**: Accessing necessary attributes for Data Sources proved challenging, as they were not directly exposed. It often required looping through specific objects or retrieving them through complex data types like 'any' and nested structures.
+5. **Testing Complexities**: Encountered difficulties in setting up and running tests, particularly with managing the file paths and ensuring unique IDs in testing scenarios. This highlighted the need for careful structuring of tests to accurately reflect the application's behavior.
+6. **Docker Configuration**: Faced issues with Docker Compose, especially in correctly mapping volumes and environment variables. This challenge underscored the importance of precise configuration to ensure smooth integration and running of services in containerized environments.
+
 ## Contributions
 Contributions are welcome via issues or pull requests on GitHub.
 
